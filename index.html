@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+    
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+       
+        <!-- media items -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+        <!-- Style css service -->
+        <link rel="stylesheet" href="css/style.css">
+    
+        <!-- Link font character -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+        <!-- Script custom -->
+        <script src="js/script.js"></script>
+        
+    </head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- my NAVBAR code starts here -->
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="#">
+                <img src="Image/logo.jpg" style="width: 70px;"></a>
+        
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Gallery.html">Gallery </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutUs.html">About us</a>
+                </li>
+        
+                <!-- My Search -->
+                <nav class="navbar navbar-expand-sm bg-light navbar-light">
+                    <form class="form-inline" action="/action_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-dark" type="submit">Search</button>
+                    </form>
+            </ul>
+        </nav>
+        
+        
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+        
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Image/1.jpg" alt="image2" width="100%" height="800px">
+                    <div class=" carousel-caption">
+                        <h1 style=" color: #4FBDEB;"><b>There's a smarter way to do SEO.</h1></b>
+                        <p style=" color: dark;"> <b>SEO software and data to help you increase traffic, rankings, and
+                                visibility in search results.</p></b>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/2.jpg" alt="image1" width="100%" height="800px">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/3.jpeg" alt="image3" width="100%" height="800px">
+                </div>
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Section -->
+    <section>
+        <div class="container">
+            <div class="title-section">
+                <h2>Moz Pro: the proven, all-in-one SEO toolset</h2>
+                <p>
+                    A few of the SEO solutions you can accomplish with Moz Pro
+                </p>
+                <div><button onclick="clickViewInfoRow1()" id="btn-row-colMid">Explore all features</button></div>
+            </div>
+            <!-- part one of container -->
+            <div class="part-one">
+                 <!-- row1-colume-left -->
+                 <div class="row1-colLeft">
+                    <img src="Image/keyword1.png" alt="anh3">
+                 </div>
+
+                  <!-- row1-colume-right -->
+                <div class="row1-colRight">
+                    <!-- Text row 1 -->
+                    <div class="text-row1">
+                        <h2>Understand your visitors</h2>
+                        <p>How are people searching for your products/services? Knowing which keywords are being used and what questions are
+                            being asked can help you create high quality content.</p>
+                        <ul>
+                            <li>Strategically target keywords with accurate keyword volume and difficulty metrics.</li>
+                        
+                            <li>Save keyword lists that you can track and update as needed.</li>
+                        </ul>
+                        <div><button onclick="clickViewInfoRow1()" id="btn-row1-colLeft">Try KeyWord Explorer</button></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- part two of container -->
+            <div class="part-two">
+                <!-- row2-colume-left -->
+                <div class="row2-colLeft">
+                    <!-- Text row 2 -->
+                    <div class="text-row2">
+                        <h2>Track your rankings</h2>
+                        <p>To know what's working, you need to accurately track how you're ranking for keywords. With Moz Pro, you can track your competition as well.</p>
+                        <ul>
+                          <li>Know what searchers everywhere see by tracking local and national searches</li>
+            
+                          <li>Get a holistic picture of how you rank for your keywords with our Search Visibility score</li>
+                        </ul>
+                        <div><a href="#">Learn more about rank tracking</a></div>
+                       
+                    </div>
+                </div>
+
+                 <!-- row2-colume-right -->
+               <div class="row2-colRight">
+                    <img src="Image/keyword1.png" alt="anh3">
+               </div>
+           </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer_container">
+            <div>
+              <p>Email: maippha140445@fpt.edu.vn</p>
+              <p>Powered by WordPress | Photo Fusion by Theme Palace</p>
+            <div class="socialMedia">
+              <!-- Add font awesome icons -->
+              <a href="https://www.facebook.com/phung.maii.1199/" class="fa fa-facebook"></a>
+              <a href="https://www.behance.net/phungpfuhl" class="fa fa-behance"></a>
+              <a href="https://www.instagram.com/_mikeeph__/" class="fa fa-instagram"></a>
+            </div>
+            <p style="color: white;">Phung Mai. Copyright 2021. All rights reserved </p>
+          </div>
+    </footer>
+    
+</body>
+</html>
